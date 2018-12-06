@@ -1,0 +1,64 @@
+html {
+	height: 100vw;
+}
+
+body {
+	height: 100vw;
+	background: #477c9f;
+}
+
+h1 {
+	text-align: center
+}
+
+header {
+	background: white;
+	margin: 20px;
+	padding: 5px
+}
+
+nav a {
+	display: inline-block;
+	background: #c1e3f9;
+	border: 1px solid grey;
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+nav a:hover {
+	background: darkgrey
+}
+
+.container {
+	background: white;
+	height: 100%;
+	margin: 20px;
+	padding: 10px
+}
+
+.container th {
+	text-align: left
+}
+
+.content {
+	margin: 15px 0
+}
+
+.bio {
+	box-sizing: border-box;
+	width: 60%;
+	float: left;
+	padding: 0 5px
+}
+
+.bio p {
+	margin: 0
+}
+
+.image {
+	box-sizing: border-box;
+	width: 40%;
+	float: left;
+	padding: 0 5px
+}
