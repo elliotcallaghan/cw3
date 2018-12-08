@@ -1,9 +1,10 @@
 html {
-	height: 100vw;
+	height: 100%;
+    font-family: "Calibri", sans-serif
 }
 
 body {
-	height: 100vw;
+    height: 100%;
 	background: #477c9f;
 }
 
@@ -11,10 +12,19 @@ h1 {
 	text-align: center
 }
 
+h1 a {
+    text-decoration: none;
+    color: black
+}
+
 header {
 	background: white;
 	margin: 20px;
 	padding: 5px
+}
+
+nav {
+    text-align: center
 }
 
 nav a {
@@ -30,35 +40,38 @@ nav a:hover {
 	background: darkgrey
 }
 
-.container {
+.wrapper {
 	background: white;
-	height: 100%;
 	margin: 20px;
-	padding: 10px
+	padding: 10px 10px 15px
 }
 
-.container th {
+.wrapper th {
 	text-align: left
 }
 
 .content {
+    display: inline-block;
 	margin: 15px 0
-}
-
-.bio {
-	box-sizing: border-box;
-	width: 60%;
-	float: left;
-	padding: 0 5px
-}
-
-.bio p {
-	margin: 0
 }
 
 .image {
 	box-sizing: border-box;
 	width: 40%;
-	float: left;
 	padding: 0 5px
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30%
+}
+
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0
 }
