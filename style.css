@@ -5,7 +5,7 @@ html {
 
 body {
     height: 100%;
-	background: #477c9f;
+	background: #477c9f
 }
 
 h1 {
@@ -33,11 +33,11 @@ nav a {
 	border: 1px solid grey;
 	color: black;
 	text-decoration: none;
-	padding: 5px 10px;
+	padding: 5px 10px
 }
 
 nav a:hover {
-	background: darkgrey
+	background: darkgray
 }
 
 .wrapper {
@@ -55,10 +55,15 @@ nav a:hover {
 	margin: 15px 0
 }
 
+.content p {
+    margin-top: 0
+}
+
 .image {
 	box-sizing: border-box;
 	width: 40%;
-	padding: 0 5px
+	padding: 0 5px;
+    float: right
 }
 
 .container {
