@@ -36,7 +36,9 @@ nav a {
 	padding: 5px 10px
 }
 
-nav a:hover {
+nav a:hover,
+#index nav a[href="index.html"],
+#javascript nav a[href="189026310.html"] {
 	background: darkgray
 }
 
